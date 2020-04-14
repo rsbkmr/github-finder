@@ -31,5 +31,6 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "homepage": "https://rsbkme.github.io/github-finder/"
 }
