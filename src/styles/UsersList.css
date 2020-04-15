@@ -1,0 +1,26 @@
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 2fr));
+  grid-auto-flow: row;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.user {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #d3d3d3;
+  border-radius: 1rem;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  background-color: deeppink;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  color: white;
+}
