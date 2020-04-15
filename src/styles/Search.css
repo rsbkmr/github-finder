@@ -1,0 +1,19 @@
+.search-form {
+  text-align: center;
+  padding: 1rem;
+}
+
+.search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid var(--dark);
+  height: 2rem;
+}
+
+.search-button {
+  height: 2rem;
+  padding: 0 1rem;
+  background-color: deeppink;
+  border: 0;
+  color: white;
+}

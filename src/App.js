@@ -4,6 +4,7 @@ import UsersList from "./components/UsersList";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import { UsersProvider } from "./contexts/UsersContext";
+import Search from "./components/Search";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <UsersProvider>
         <Router>
           <Navbar />
+          <Search />
           <UsersList />
         </Router>
       </UsersProvider>
