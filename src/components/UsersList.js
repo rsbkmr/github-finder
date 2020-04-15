@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
 import { UsersContext } from "../contexts/UsersContext";
 import "../styles/UsersList.css";
+import Spinner from "./Spinner";
 
 const UsersList = () => {
   const [users, setUsers] = useContext(UsersContext);
-  return (
+  return users.length ? (
     <div className="users container">
       {users.map((user) => (
         <div key={user.id} className="user">
@@ -15,6 +16,8 @@ const UsersList = () => {
         </div>
       ))}
     </div>
+  ) : (
+    <Spinner />
   );
 };
 
